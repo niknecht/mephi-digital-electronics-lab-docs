@@ -26,7 +26,7 @@ tbl-cap-location: top
 ```{=latex}
 \begin{executors}
 \personalSignature{Первый исполнитель}{Витковский Н.Н.}
-\personalSignature{Второй исполнитель}{Утина Д.}
+\personalSignature{Второй исполнитель}{Утина Д.А.}
 \end{executors}
 \pagebreak
 \tableofcontents
@@ -38,4 +38,6 @@ tbl-cap-location: top
 
 {{< include chapters/intro.qmd >}}
 
-{{< include chapters/theory.qmd >}}
+# Диодные выпрямители
+{{< include chapters/rect-theory.qmd >}}
+{{< include chapters/rect-experiment.qmd >}}
