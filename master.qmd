@@ -34,7 +34,7 @@ tbl-cap-location: top
 
 ```{=latex}
 \begin{executors}
-\personalSignature{Б24-605, первый иcполнитель}{Витковский Н.Н.}
+\personalSignature{Б24-605, первый иcполнитель, оформитель документации}{Витковский Н.Н.}
 \personalSignature{Б24-605, второй исполнитель}{Утина Д.А.}
 \end{executors}
 \pagebreak
@@ -50,3 +50,10 @@ tbl-cap-location: top
 # Диодные выпрямители
 {{< include chapters/rect-theory.qmd >}}
 {{< include chapters/rect-experiment.qmd >}}
+
+# Усилители на МОП-транзисторах
+{{< include chapters/amp-theory.qmd >}}
+{{< include chapters/amp-experiment.qmd >}}
+
+{{< include chapters/final.qmd >}}
+
