@@ -8,25 +8,34 @@ format:
   number-depth: 3
   top-level-division: chapter
   toc: false
+  ident: true
+  keep-tex: false
   toc-title: "СОДЕРЖАНИЕ"
   pdf-engine: xelatex
   documentclass: G7-32
   include-in-header:
    - text: |
-             \NirOrgLongName{Национальный исследовательский ядерный университет «МИФИ»}
-             \NirBoss{Кафедра Автоматики}{Нагорный Н.В.}
+             \NirOrgLongName{Министерство науки и высшего образования Российской Федерации (Минобрнауки)\\\
+             федеральное государственное автономное образовательное учреждение высшего образования\\\
+             «Национальный исследовательский ядерный университет «МИФИ»\\\
+             (НИЯУ МИФИ)}
+             \NirBoss{Ассистент кафедры автоматики (№2) института физико-технических мнтеллектуальных систем НИЯУ МИФИ}{Нагорный Н.В.}
+             \NirManager{Ассистент кафедры автоматики (№2) института физико-технических мнтеллектуальных систем НИЯУ МИФИ}{Нагорный Н.В.}
              \NirYear{2026}
              \NirTown{Москва}
              \NirSubject{Лабораторная работа №2. Применение полупроводниковых компонентов.}
-             \Nir{Практикум по цифровой электронике}
+             \NirAbout{Практикум по цифровой электронике}
+             \usepackage{indentfirst}
+             \setlength{\parindent}{1.25cm}
+             \setlength{\parskip}{0pt}
 fig-cap-location: bottom
 tbl-cap-location: top
 ---
 
 ```{=latex}
 \begin{executors}
-\personalSignature{Первый исполнитель}{Витковский Н.Н.}
-\personalSignature{Второй исполнитель}{Утина Д.А.}
+\personalSignature{Б24-605, первый ответственный иcполнитель}{Витковский Н.Н.}
+\personalSignature{Б24-605, второй ответственный исполнитель}{Утина Д.А.}
 \end{executors}
 \pagebreak
 \tableofcontents
