@@ -33,7 +33,7 @@ tbl-cap-location: top
 
 ```{=latex}
 \begin{executors}
-\personalSignature{Б24-605, первый иcполнитель, оформитель документации}{Витковский Н.Н.}
+\personalSignature{Б24-605, первый иcполнитель, оформление документации, обработка результатов}{Витковский Н.Н.}
 \personalSignature{Б24-605, второй исполнитель}{Утина Д.А.}
 \end{executors}
 \pagebreak

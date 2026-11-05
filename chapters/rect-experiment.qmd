@@ -4,20 +4,66 @@
 
 ### Простейшая схема выпрямителя
 
-![Показания осциллографа: Выходной сигнал однополупериодного выпрямителя](figures/no-capacitance-half-wave.png){}
+![Показания осциллографа: Выходной сигнал однополупериодного выпрямителя без фильтра](figures/no-capacitance-half-wave.png)
 
-+-------------+-----------+----------+-----------+-----------+
-|             | $U_{вх}$  |$U_{max}$ | $U_{min}$ | $K_{max}$ |
-+=============+===========+==========+===========+===========+
-| С фильтром  |           |          |           |           |
-+-------------+-----------+----------+-----------+-----------+
-| Без фильтра |           |          |           |           |
-+-------------+-----------+----------+-----------+-----------+
-: Параметры простейшей цепи
+![Показания осциллографа: Выходной сигнал однополупериодного выпрямителя с фильтром](figures/capacitance-half-wave.png)
+
+```{=latex}
+\begin{table}[htbp]
+\centering
+\small
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.25}
+\caption{Параметры простейшей цепи}
+\label{tab:chain-parameters}
+
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+ & $U_{\text{in,max}}$, В
+ & $U_{\text{out,max}}$, В
+ & $U_{\text{out,min}}$, В
+ & \shortstack{$K_{U_{\text{out,max}}}$\\
+   $=\dfrac{U_{\text{out,max}}}{U_{\text{in}}}$} \\
+\hline
+С фильтром    & 12 & & & \\ \hline
+Без фильтра   & 12 & & & \\ \hline
+\end{tabular}%
+}
+\end{table}
+```
 
 ### Двухполупериодный мостовой выпрямитель
 
 same here
+```{=latex}
+\begin{table}[htbp]
+\centering
+\small
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.25}
+\caption{Параметры простейшей цепи}
+\label{tab:chain-parameters}
+
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+ & $U_{\text{in,max}}$, В
+ & $U_{\text{out,max}}$, В
+ & $U_{\text{out,min}}$, В
+ & \shortstack{$K_{U_{\text{out,max}}}$\\
+   $=\dfrac{U_{\text{out,max}}}{U_{\text{in}}}$} \\
+\hline
+6кОм, с фильтром    & 12 & & & \\ \hline
+6кОм, без фильтра   & 12 & & & \\ \hline
+3.5кОм, с фильтром  & 12 & & & \\ \hline
+3.5кОм, без фильтра & 12 & & & \\ \hline
+1кОм, с фильтром    & 12 & & & \\ \hline
+1кОм, без фильтра   & 12 & & & \\ \hline
+\end{tabular}%
+}
+\end{table}
+```
 
 ### Анализ
 
