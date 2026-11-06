@@ -2,6 +2,8 @@
 title: "Отчет по лабораторной работе по предмету \"Практикум по цифровой электронике\"."
 author: 
   - "Витковский Н.Н."
+filters:
+  - auto-eq
 format:
  pdf:
   number-sections: true
