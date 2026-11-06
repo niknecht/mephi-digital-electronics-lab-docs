@@ -24,10 +24,10 @@
  & $U_{\text{out,max}}$, В
  & $U_{\text{out,min}}$, В
  & \shortstack{$K_{U_{\text{out,max}}}$\\
-   $=\dfrac{U_{\text{out,max}}}{U_{\text{in}}}$} \\
+   $=\frac{U_{\text{out,max}}}{U_{\text{in}}}$} \\
 \hline
-С фильтром    & 6.00 & 0.51 & 0.15 & 0.55 \\ \hline
-Без фильтра   & 6.00 & 0.51 & 0.15 & 1.00 \\ \hline
+С фильтром   & 6.00 & 0.51 & 0.15 & 0.55 \\ \hline
+Без фильтра  & 6.00 & 0.51 & 0.15 & 1.00 \\ \hline
 \end{tabular}%
 }
 \end{table}
@@ -35,14 +35,13 @@
 
 ### Двухполупериодный мостовой выпрямитель
 
-same here
 ```{=latex}
 \begin{table}[htbp]
 \centering
 \small
 \setlength{\tabcolsep}{5pt}
 \renewcommand{\arraystretch}{1.25}
-\caption{Параметры простейшей цепи}
+\caption{Параметры цепи мостового двуполупериодного выпрямителя}
 \label{tab:chain-parameters}
 
 \resizebox{\linewidth}{!}{%
@@ -52,14 +51,14 @@ same here
  & $U_{\text{out,max}}$, В
  & $U_{\text{out,min}}$, В
  & \shortstack{$K_{U_{\text{out,max}}}$\\
-   $=\dfrac{U_{\text{out,max}}}{U_{\text{in}}}$} \\
+   $=\frac{U_{\text{out,max}}}{U_{\text{in}}}$} \\
 \hline
-6кОм, с фильтром    & 12 & & & \\ \hline
-6кОм, без фильтра   & 12 & & & \\ \hline
-3.5кОм, с фильтром  & 12 & & & \\ \hline
-3.5кОм, без фильтра & 12 & & & \\ \hline
-1кОм, с фильтром    & 12 & & & \\ \hline
-1кОм, без фильтра   & 12 & & & \\ \hline
+6кОм, с фильтром     & 12 & & & \\ \hline
+6кОм, без фильтра    & 12 & & & \\ \hline
+3.5кОм, с фильтром   & 12 & & & \\ \hline
+3.5кОм, без фильтра  & 12 & & & \\ \hline
+1кОм, с фильтром     & 12 & & & \\ \hline
+1кОм, без фильтра    & 12 & & & \\ \hline
 \end{tabular}%
 }
 \end{table}
