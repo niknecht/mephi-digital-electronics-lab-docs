@@ -14,7 +14,7 @@
 \label{tab:chain-parameters}
 
 \resizebox{\linewidth}{!}{%
-\begin{tabular}{|l|c|c|c|c|c|}
+\begin{tabular}{|l|c|c|c|c|c|c|}
 \hline
  & $U_{\text{in}}$, В
  & $U_{\text{max}}$, В
